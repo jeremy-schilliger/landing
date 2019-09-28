@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+/* Importing component files */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin: 20px;
+}
+
+a {
+  	text-decoration: none;
+}
+
+.container {
+    text-align: center;
+}
+
+.card {
+	width: 350px;     /* Fix the width first*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+	padding: 20px;
+	margin: 10px; /* Let CSS compute the same left & right margins automatically*/
+	background-color: #white;                         /* White background */
+	padding: 30px;                             /* Internal space */
+	border-radius: 4px;                        /* Small radius */
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+}
+
+.card:hover {
+	width: 350px;     /* Fix the width first*/
+	margin: 10px; /* Let CSS compute the same left & right margins automatically*/
+	background-color: #f7f7f7;                         /* White background */
+	padding: 30px;                             /* Internal space */
+	border-radius: 4px;                        /* Small radius */
+	box-shadow: 0 10px 60px rgba(0,0,0,.1);    /* Light shadow */
+}
+
+.card img {
+  width: 150px;
+  height: 100px;
+}
+
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+}
+
+.cards {
+  display: flex;
+	flex-wrap: wrap;
+}
+.card{
+  flex-basis: 250px;
+	flex-grow: 1;
+	margin: 10px;
+}
+
+.card img {
+  width: 150px;
+}
+
+/*.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+	padding: 20px;
+}
+
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+}
+
+.cards {
+  display: flex;
+	flex-wrap: wrap;
+}
+.card{
+  flex-basis: 250px;
+	flex-grow: 1;
+	margin: 10px;
+}*/
